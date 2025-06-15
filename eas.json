@@ -1,6 +1,7 @@
 {
   "cli": {
-    "version": ">= 5.9.1"
+    "version": ">= 5.9.1",
+    "appVersionSource": "local"
   },
   "build": {
     "development": {
@@ -15,11 +16,7 @@
     },
     "production": {
       "android": {
-        "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease",
-        "env": {
-          "ANDROID_NDK_HOME": "%ANDROID_HOME%\\ndk"
-        }
+        "buildType": "app-bundle"
       }
     }
   }
