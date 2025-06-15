@@ -19,11 +19,7 @@
     "android": {
       "package": "com.dhalparagp.app",
       "versionCode": 1,
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "permissions": []
+      "permissions": ["INTERNET"]
     },
     "web": {
       "bundler": "metro",
